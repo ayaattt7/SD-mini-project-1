@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayatul Hakim — Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <p class="wordmark">Ayatul<span>.dev</span></p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about" class="about">
+      <img class="avatar" src="images/profile.jpg" alt="Portrait of Ayatul Hakim standing against a wood-paneled wall">
+      <div class="about-text">
+        <p class="eyebrow">About</p>
+        <h1>Hi, I'm Ayatul Hakim.</h1>
+        <p class="lede">3rd semester CSE student at IIUC, working my way through C, C++, and Java one problem at a time. I spend most of my free hours on competitive programming — and the rest building small games that turn what I've learned into something playable.</p>
+        <a class="cta" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <p class="eyebrow">Skills</p>
+      <h2>What I work with</h2>
+      <ul class="skills-grid">
+        <li class="skill-pill">C</li>
+        <li class="skill-pill">C++</li>
+        <li class="skill-pill">Java</li>
+        <li class="skill-pill">Object-Oriented Programming</li>
+        <li class="skill-pill">Competitive Programming</li>
+        <li class="skill-pill">HTML</li>
+        <li class="skill-pill">CSS</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <p class="eyebrow">Projects</p>
+      <h2>Recent work</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Brick Breaker</h3>
+          <p class="project-stack">C++ · Game Logic · Collision Detection</p>
+          <p>A classic arcade brick-breaker rebuilt from scratch — paddle movement, ball physics, and a brick grid that breaks apart as the score climbs. Built to get hands-on with collision detection and real-time game loops.</p>
+        </article>
+        <article class="project-card">
+          <h3>Case Detective</h3>
+          <p class="project-stack">Java · OOP · Logic Puzzle</p>
+          <p>A mystery-solving game where the player interviews suspects and pieces together clues to crack the case. Suspects, evidence, and case logic are all modeled as classes — a project built to put object-oriented design into practice.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's talk</h2>
+      <p class="contact-email">
+        Email: <a href="mailto:ayatulhakim7@gmail.com">ayatulhakim7@gmail.com</a>
+      </p>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Ayatul Hakim. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
